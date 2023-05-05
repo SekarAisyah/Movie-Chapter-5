@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "515697257959",
+    "project_id": "movie-chapter-lima",
+    "storage_bucket": "movie-chapter-lima.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515697257959:android:f64b8dbea6592ecc4c6142",
+        "android_client_info": {
+          "package_name": "com.example.m"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515697257959-kd470p8bj67usjmqubcata40d7amvqj3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.m",
+            "certificate_hash": "d696b214922195bbc4a002e49569046d6f8eace2"
+          }
+        },
+        {
+          "client_id": "515697257959-qp8r8834rnsf4ao0c4clit9mf8cbpsc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn5EtkfPtiKYtCPVYlk-lYurdDWJr2JSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515697257959-qp8r8834rnsf4ao0c4clit9mf8cbpsc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
