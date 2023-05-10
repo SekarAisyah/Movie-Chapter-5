@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".view.DetailFragment">
+
+    <TextView
+        android:id="@+id/tvHome"
+        style="@style/textjuduldetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Detail Film" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHome"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:elevation="5dp"
+        app:cardCornerRadius="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/imgFilmImageDetail"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:id="@+id/tv_namafilmdetail"
+                style="@style/textisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgFilmImageDetail"
+                android:layout_centerHorizontal="true"
+                android:text="Nama Film" />
+
+            <TextView
+                android:id="@+id/tvReleaseFilmDetail"
+                style="@style/textbody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_namafilmdetail"
+                android:text="Release" />
+
+            <TextView
+                android:id="@+id/tvPopularityDetail"
+                style="@style/textbody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvReleaseFilmDetail"
+                android:text="Popularity" />
+
+            <TextView
+                android:id="@+id/tv_sinopsisfilmdetail"
+                style="@style/textbody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvPopularityDetail"
+                android:text="Overview" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_Crashlytics"
+        android:backgroundTint="@color/merah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Test Crashlytics" />
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".view.HomeFragment">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/merah">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textJudul"
+                style="@style/textjudulwelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:text="Welcome, " />
+
+            <ImageView
+                android:id="@+id/iv_icprofile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/ic_person" />
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvHome"
+        style="@style/textjudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tbHome"
+        android:layout_centerHorizontal="true"
+        android:text="HOME" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvListFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHome"
+        android:layout_marginTop="20sp" />
+
+</RelativeLayout>

@@ -1,7 +1,8 @@
-package com.example.m
+package com.example.m.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.m.R
 import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
