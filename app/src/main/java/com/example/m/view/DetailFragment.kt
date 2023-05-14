@@ -35,7 +35,7 @@ class DetailFragment : Fragment() {
         """.trimIndent()
 
         binding.btnCrashlytics.setOnClickListener {
-            throw RuntimeException("Test Crash") // Force a crash
+            throw RuntimeException("Test Crash")
         }
     }
 }
